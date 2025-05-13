@@ -71,6 +71,47 @@ Defaults for each setting are shown below.
 
 To see all available options, open your settings UI and look for `Extensions > Flow Icons`.
 
+### Custom icon associations
+
+Compatible with Material Icon settings, but with a difference: `**` will be treated as `*`.
+
+If you want to remove the icon, set the value to "".
+
+You can see the file and folder names in the preview image or [here](https://flow-icons.pages.dev/icons).
+
+#### File associations
+
+```jsonc
+"flow-icons.files.associations": {
+  // Add an icon for a file extension
+  "*.tss": "typescript",
+  // Remove the icon for a file extension
+  // (If the extension maps to a language, language icon will be used)
+  "*.mdx": "",
+  // Replace the icon for a file extension
+  "*.ts": "video",
+  // Add an icon for a specific file name
+  "tailwind.css": "tailwindcss",
+  // Remove the icon for a specific file name
+  "package.json": "",
+  // Replace the icon for a specific file name
+  "changelog.md": "markdown"
+},
+```
+
+#### Folder associations
+
+```jsonc
+"flow-icons.folders.associations": {
+  // Add an icon for a folder name
+  "store": "resource",
+  // Remove the icon for a folder name
+  "data": "",
+  // Replace the icon for a folder name
+  "storage": "database"
+}
+```
+
 ## Requesting Icons
 
 To request a new icon, [open an issue](https://github.com/thang-nm/Flow-Icons/issues/new) and describe the icons you need.
