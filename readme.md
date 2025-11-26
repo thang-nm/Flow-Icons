@@ -4,17 +4,25 @@
 </h1>
 
 <p align="center">
-  A whole new icon pack for VSCode
+  🌼 A brand new premium icon pack for VSCode
 </p>
 
 <p align="center">
-  ⚠️ IMPORTANT: to download all the icons, you need a license key.
+  💎 <strong>IMPORTANT</strong> 💎
+  <br>
+  The extension contains only demo icons.
+  <br>
+  To download all the icons, you need a license key.
   <br>
   Purchase from the link below:
   <br>
   <br>
   <a target="_blank" href="https://flow-icons.pages.dev">
-    <img src="https://img.shields.io/badge/Get_full-Flow_Icons-blue?colorA=363a4f&colorB=c4b5fd&style=for-the-badge">
+    <img src="https://img.shields.io/badge/Get_full-Flow_Icons-blue?colorA=363a4f&colorB=c6a0f6&style=for-the-badge">
+    &nbsp;
+    <img src="https://img.shields.io/badge/dynamic/json?label=Files&colorA=363a4f&colorB=eed49f&style=for-the-badge&url=https%3A%2F%2Fflow-icons.pages.dev%2Fstatistics.json&query=files">
+    &nbsp;
+    <img src="https://img.shields.io/badge/dynamic/json?label=Folders&colorA=363a4f&colorB=a6da95&style=for-the-badge&url=https%3A%2F%2Fflow-icons.pages.dev%2Fstatistics.json&query=folders">
   </a>
 </p>
 
@@ -55,7 +63,7 @@ Defaults for each setting are shown below.
 ```jsonc
 {
   // Set default folder color
-  // Available colors: red | orange | yellow | green | blue | pink | purple | teal | gray
+  // Available colors: red | orange | yellow | green | blue | sky | pink | purple | teal | gray | brown
   "flow-icons.folderColor": "gray",
 
   // Set to `true` to hide folding arrows next to folder icons.
@@ -83,19 +91,16 @@ You can see the file and folder names in the preview image or [here](https://flo
 
 ```jsonc
 "flow-icons.files.associations": {
-  // Add an icon for a file extension
+  // Add or replace an icon for a file extension
   "*.tss": "typescript",
   // Remove the icon for a file extension
   // (If the extension maps to a language, language icon will be used)
   "*.mdx": "",
-  // Replace the icon for a file extension
-  "*.ts": "video",
-  // Add an icon for a specific file name
+  // Add or replace an icon for a specific file name
   "tailwind.css": "tailwindcss",
   // Remove the icon for a specific file name
-  "package.json": "",
-  // Replace the icon for a specific file name
-  "changelog.md": "markdown"
+  // (If the file maps to a language, language icon will be used)
+  "package.json": ""
 },
 ```
 
@@ -103,14 +108,44 @@ You can see the file and folder names in the preview image or [here](https://flo
 
 ```jsonc
 "flow-icons.folders.associations": {
-  // Add an icon for a folder name
+  // Add or replace an icon for a folder name
   "store": "resource",
   // Remove the icon for a folder name
-  "data": "",
-  // Replace the icon for a folder name
-  "storage": "database"
+  "data": ""
 }
 ```
+
+#### Language associations
+
+```jsonc
+"flow-icons.languages.associations": {
+  // Add or replace an icon for a language
+  "languageId": "iconName",
+  "json5": "json",
+  // Remove the icon for a language
+  "jsonc": ""
+}
+```
+
+### Toggle icon packs
+
+```jsonc
+"flow-icons.activeIconPack": {
+  "angular": false,
+  "nest": true,
+  "next": true
+},
+```
+
+The default value is shown above. For more details about the packs, please see [settings.json](https://github.com/thang-nm/Flow-Icons/blob/main/settings.json).
+
+You can set the value to `false` if you want to disable it. (The `angular` and `nest` packs will conflict if you enable both).
+
+## Command List
+
+| Command            | Description                |
+| ------------------ | -------------------------- |
+| **Download Icons** | Download the latest icons. |
 
 ## Requesting Icons
 
