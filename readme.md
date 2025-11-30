@@ -133,7 +133,8 @@ You can see the file and folder names in the preview image or [here](https://flo
 "flow-icons.activeIconPack": {
   "angular": false,
   "nest": true,
-  "next": true
+  "next": true,
+  "roblox": true
 },
 ```
 

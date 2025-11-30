@@ -3,7 +3,8 @@
     "packs": {
       "angular": false,
       "nest": true,
-      "next": true
+      "next": true,
+      "roblox": true
     }
   },
   "packs": {
@@ -49,6 +50,7 @@
       "nest_pipe",
       "nest_repository",
       "nest_service"
-    ]
+    ],
+    "roblox": ["rojo"]
   }
 }
