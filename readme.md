@@ -35,7 +35,27 @@
 
 ## Preview
 
-<br />
+<p align="center">
+  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/freeCodeCamp.png">
+</p>
+
+## Packs
+
+See [Toggle icon packs](#toggle-icon-packs) guide.
+
+<p align="center">
+  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/packs.png">
+</p>
+
+## Alternatives
+
+See [Icon replacements](#icon-replacements) guide.
+
+<p align="center">
+  <img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/alternatives.png">
+</p>
+
+## Icons
 
 <p align="center">
   <img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/icons.png">
@@ -49,7 +69,7 @@ You'll then be prompted to download the icons.
 
 ## Features
 
-- Supports dark, light, and dim themes
+- Supports dark and light themes
 - Looks great even on non-Retina displays
 - Includes most common file and folder types
 - Offers customization options
@@ -63,7 +83,7 @@ Defaults for each setting are shown below.
 ```jsonc
 {
   // Set default folder color
-  // Available colors: red | orange | yellow | green | blue | sky | pink | purple | teal | gray | brown
+  // Available colors: gray | blue | brown | green | lime | orange | pink | purple | red | sky | teal | yellow
   "flow-icons.folderColor": "gray",
 
   // Set to `true` to hide folding arrows next to folder icons.
@@ -131,10 +151,34 @@ You can see the file and folder names in the preview image or [here](https://flo
 
 ```jsonc
 "flow-icons.activeIconPack": {
-  "angular": false,
-  "nest": true,
+  "angular": true,
+  "bashly": true,
+  "nest": false,
   "next": true,
   "roblox": true
+},
+```
+
+### Icon replacements
+
+Some icons have alternative versions, which you can use to replace the default ones.
+
+#### File replacements
+
+```jsonc
+"flow-icons.files.replacements": {
+  // "replace_icon": "with_icon",
+  "rust": "rust_alt",
+  "kotlin": "kotlin_alt",
+},
+```
+
+#### Folder replacements
+
+```jsonc
+"flow-icons.folders.replacements": {
+  // "replace_icon": "with_icon",
+  "components": "react-components"
 },
 ```
 
@@ -142,11 +186,14 @@ The default value is shown above. For more details about the packs, please see [
 
 You can set the value to `false` if you want to disable it. (The `angular` and `nest` packs will conflict if you enable both).
 
+⚠️ Quickly see all available packs [here](https://github.com/thang-nm/Flow-Icons/tree/main?tab=readme-ov-file#toggle-icon-packs).
+
 ## Command List
 
-| Command            | Description                |
-| ------------------ | -------------------------- |
-| **Download Icons** | Download the latest icons. |
+| Command            | Description                             |
+| ------------------ | --------------------------------------- |
+| **Download Icons** | Download the latest icons.              |
+| **Rebuild Icons**  | Rebuild the icons with custom settings. |
 
 ## Requesting Icons
 
