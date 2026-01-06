@@ -159,6 +159,12 @@ You can see the file and folder names in the preview image or [here](https://flo
 },
 ```
 
+The default value is shown above. For more details about the packs, please see [settings.json](https://github.com/thang-nm/Flow-Icons/blob/main/settings.json).
+
+You can set the value to `false` if you want to disable it. (The `angular` and `nest` packs will conflict if you enable both).
+
+⚠️ Quickly see all available packs [here](https://github.com/thang-nm/Flow-Icons/tree/main?tab=readme-ov-file#toggle-icon-packs).
+
 ### Icon replacements
 
 Some icons have alternative versions, which you can use to replace the default ones.
@@ -181,12 +187,6 @@ Some icons have alternative versions, which you can use to replace the default o
   "components": "react-components"
 },
 ```
-
-The default value is shown above. For more details about the packs, please see [settings.json](https://github.com/thang-nm/Flow-Icons/blob/main/settings.json).
-
-You can set the value to `false` if you want to disable it. (The `angular` and `nest` packs will conflict if you enable both).
-
-⚠️ Quickly see all available packs [here](https://github.com/thang-nm/Flow-Icons/tree/main?tab=readme-ov-file#toggle-icon-packs).
 
 ## Command List
 
