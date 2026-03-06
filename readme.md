@@ -93,7 +93,7 @@ Defaults for each setting are shown below.
   "flow-icons.hidesExplorerFolders": false,
 
   // Set to `false` to only use the default folder icon.
-  "flow-icons.specificFolders": true
+  "flow-icons.specificFolders": true,
 }
 ```
 
@@ -120,7 +120,11 @@ You can see the file and folder names in the preview image or [here](https://flo
   "tailwind.css": "tailwindcss",
   // Remove the icon for a specific file name
   // (If the file maps to a language, language icon will be used)
-  "package.json": ""
+  "package.json": "",
+
+  // In a specific folder
+  "src/index.js": "javascript-other", // for a name
+  "src/*.index": "javascript-other", // for an extension
 },
 ```
 
@@ -131,7 +135,10 @@ You can see the file and folder names in the preview image or [here](https://flo
   // Add or replace an icon for a folder name
   "store": "resource",
   // Remove the icon for a folder name
-  "data": ""
+  "data": "",
+
+  // In a specific folder
+  "src/store": "archive",
 }
 ```
 
@@ -173,9 +180,9 @@ Some icons have alternative versions, which you can use to replace the default o
 
 ```jsonc
 "flow-icons.files.replacements": {
-  // "replace_icon": "with_icon",
-  "rust": "rust_alt",
-  "kotlin": "kotlin_alt",
+  // "replace-icon": "with-icon",
+  "rust": "rust-alt",
+  "kotlin": "kotlin-alt",
 },
 ```
 
@@ -183,7 +190,7 @@ Some icons have alternative versions, which you can use to replace the default o
 
 ```jsonc
 "flow-icons.folders.replacements": {
-  // "replace_icon": "with_icon",
+  // "replace-icon": "with-icon",
   "components": "react-components"
 },
 ```
