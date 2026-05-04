@@ -99,6 +99,42 @@ Defaults for each setting are shown below.
 
 To see all available options, open your settings UI and look for `Extensions > Flow Icons`.
 
+### Flow You
+
+Icon theme based on your colors. You can customize the colors like the sample below:
+
+```jsonc
+"flow-icons.you.colors": {
+  // Dark theme colors
+  "white": "#fcfcfc",
+  "black": "#242936",
+  "blue": "#73d0ff",
+  "brown": "#d9be98",
+  "gray": "#6e7c8f",
+  "green": "#c0e479",
+  "lime": "#d5ff80",
+  "orange": "#ffa659",
+  "pink": "#ffadaf",
+  "purple": "#dfbfff",
+  "red": "#f28779",
+  "sky": "#5ccfe6",
+  "teal": "#95e6cb",
+  "yellow": "#ffcd66",
+  // "border": "#ffffff", // use the `white` color, but you can override it.
+  "borderOpacity": 0, // hide borders by setting opacity to 0.
+
+  // Light theme colors are auto-generated from dark theme colors,
+  // but you can override them in the `light` key.
+  "light": {
+    // "white": "...",
+    // "black": "...",
+    // "blue": "...",
+    // ...
+    "borderOpacity": 0.1, // use borders in the light theme for a better look
+  },
+}
+```
+
 ### Custom icon associations
 
 Compatible with Material Icon settings, but with a difference: `**` will be treated as `*`.
