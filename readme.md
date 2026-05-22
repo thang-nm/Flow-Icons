@@ -33,6 +33,28 @@
   </picture>
 </p>
 
+## ✨ What's New
+
+### `Flow You` Icon Theme
+
+Introducing a whole new color palette made from your colors
+
+(See [Flow You](#flow-you) for more details)
+
+<img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/you/sequoia_moonlight.png">
+
+### Agents Window Support
+
+To make the icon theme work in the VS Code Agents window, add the following setting to your `settings.json`:
+
+(See [this](https://code.visualstudio.com/docs/copilot/agents/agents-window#_use-vs-code-extensions-in-the-agents-window) for more details)
+
+```json
+"extensions.supportAgentsWindow": {
+  "thang-nm.flow-icons": true
+}
+```
+
 ## Preview
 
 <p align="center">
@@ -101,26 +123,28 @@ To see all available options, open your settings UI and look for `Extensions > F
 
 ### Flow You
 
+<img width="640" src="https://raw.githubusercontent.com/thang-nm/Flow-Icons/main/you/ayu_dark.png">
+
 Icon theme based on your colors. You can customize the colors like the sample below:
 
 ```jsonc
 "flow-icons.you.colors": {
   // Dark theme colors
-  "white": "#fcfcfc",
-  "black": "#242936",
-  "blue": "#73d0ff",
-  "brown": "#d9be98",
-  "gray": "#6e7c8f",
-  "green": "#c0e479",
-  "lime": "#d5ff80",
-  "orange": "#ffa659",
-  "pink": "#ffadaf",
-  "purple": "#dfbfff",
-  "red": "#f28779",
-  "sky": "#5ccfe6",
+  "white": "#bfbdb6",
+  "black": "#0d1017",
+  "blue": "#59c2ff",
+  "brown": "#e6c08a",
+  "gray": "#667381",
+  "green": "#aad94c",
+  "lime": "#c0e76e",
+  "orange": "#ff8f40",
+  "pink": "#f6adae",
+  "purple": "#d2a6ff",
+  "red": "#f07178",
+  "sky": "#39bae6",
   "teal": "#95e6cb",
-  "yellow": "#ffcd66",
-  // "border": "#ffffff", // use the `white` color, but you can override it.
+  "yellow": "#ffcb8f",
+  // "border": "#ffffff", // use the `white`/`black` color, but you can override it.
   "borderOpacity": 0, // hide borders by setting opacity to 0.
 
   // Light theme colors are auto-generated from dark theme colors,
@@ -134,6 +158,8 @@ Icon theme based on your colors. You can customize the colors like the sample be
   },
 }
 ```
+
+See all sample palettes [here](https://github.com/thang-nm/Flow-Icons/tree/main/you).
 
 ### Custom icon associations
 

@@ -1,0 +1,20 @@
+{
+  "white": "#bfbdb6",
+  "black": "#0d1017",
+  "blue": "#59c2ff",
+  "brown": "#e6c08a",
+  "gray": "#667381",
+  "green": "#aad94c",
+  "lime": "#c0e76e",
+  "orange": "#ff8f40",
+  "pink": "#f6adae",
+  "purple": "#d2a6ff",
+  "red": "#f07178",
+  "sky": "#39bae6",
+  "teal": "#95e6cb",
+  "yellow": "#ffcb8f",
+  "borderOpacity": 0,
+  "light": {
+    "borderOpacity": 0.1
+  }
+}
