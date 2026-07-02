@@ -116,6 +116,9 @@ Defaults for each setting are shown below.
 
   // Set to `false` to only use the default folder icon.
   "flow-icons.specificFolders": true,
+
+  // Set to `true` to replace folder icons with a chevron icon.
+  "flow-icons.folderChevron": false,
 }
 ```
 
@@ -145,7 +148,7 @@ Icon theme based on your colors. You can customize the colors like the sample be
   "teal": "#95e6cb",
   "yellow": "#ffcb8f",
   // "border": "#ffffff", // use the `white`/`black` color, but you can override it.
-  "borderOpacity": 0, // hide borders by setting opacity to 0.
+  "borderOpacity": 0, // smooth look by setting the border opacity to 0.
 
   // Light theme colors are auto-generated from dark theme colors,
   // but you can override them in the `light` key.
