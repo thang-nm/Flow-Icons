@@ -10,7 +10,7 @@
 <p align="center">
   💎 <strong>IMPORTANT</strong> 💎
   <br>
-  The extension contains only demo icons.
+  By default, the extension contains only demo icons.
   <br>
   To download all the icons, you need a license key.
   <br>
@@ -86,7 +86,7 @@ See [Icon replacements](#icon-replacements) guide.
 ## 💎 Get Premium Icons
 
 To download all icons, you need a license key. You can make a payment [here](https://flow-icons.pages.dev). \
-Then, go to the `Extensions > Flow Icons > License Key` and enter your license key. \
+Then, use the [Enter License Key](#command-list) command or go to the `Extensions > Flow Icons > License Key` and enter your license key. \
 You'll then be prompted to download the icons.
 
 ## Features
@@ -104,6 +104,9 @@ Defaults for each setting are shown below.
 
 ```jsonc
 {
+  // Your license key
+  "flow-icons.licenseKey": "",
+
   // Set default folder color
   // Available colors: gray | blue | brown | green | lime | orange | pink | purple | red | sky | teal | yellow
   "flow-icons.folderColor": "gray",
@@ -262,14 +265,15 @@ Some icons have alternative versions, which you can use to replace the default o
 
 ## Command List
 
-| Command            | Description                             |
-| ------------------ | --------------------------------------- |
-| **Download Icons** | Download the latest icons.              |
-| **Rebuild Icons**  | Rebuild the icons with custom settings. |
+| Command               | Description                               |
+| --------------------- | ----------------------------------------- |
+| **Enter License Key** | Enter license key.                        |
+| **Download Icons**    | Download the latest icons.                |
+| **Rebuild Icons**     | Rebuild the icons without download icons. |
 
-## Requesting Icons
+## Report Problems & Request Icons
 
-To request a new icon, [open an issue](https://github.com/thang-nm/Flow-Icons/issues/new) and describe the icons you need.
+To report problems or request new icons, [open an issue](https://github.com/thang-nm/Flow-Icons/issues/new).
 
 <br>
 
